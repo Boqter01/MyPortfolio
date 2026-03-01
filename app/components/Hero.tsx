@@ -28,7 +28,7 @@ export default function Hero() {
       {/* ✨ BACKGROUND EFFECTS */}
       <div className="absolute inset-0 -z-10">
         <div className="absolute top-20 left-1/2 -translate-x-1/2 w-[550px] h-[550px] bg-brand-light/20 blur-[140px] rounded-full" />
-          {/* <Galaxy /> */}
+          <Galaxy />
       </div>
 
       <motion.div  
