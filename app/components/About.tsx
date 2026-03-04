@@ -13,7 +13,7 @@ import GradientText from "./GradientText";
   ];
 
   const stats = [
-    { label: "Years Experience", value: "2+" },
+    { label: "Years Experience", value: "1+" },
     { label: "Projects Completed", value: "10+" },
     { label: "Happy Clients", value: "100%" },
     { label: "Cups of Coffee", value: "1k+" },
@@ -67,14 +67,13 @@ import GradientText from "./GradientText";
             <h3 className="text-2xl font-semibold text-blue-400">Who am I?</h3>
 
             <p className="text-lg text-white/70 leading-relaxed font-light">
-              I&apos;m an aspiring Software Developer. My journey
-              started with a fascination for how things work under the hood, evolving into
-              a drive to build clean, high-performance web applications.
+              I&apos;m an aspiring junior Software Developer and IT student with hands-on experience 
+              building academic and personal projects. Skilled in Web and Mobile application development, 
+              problem-solving, and learning new technologies. 
             </p>
             <p className="text-lg text-white/70 leading-relaxed font-light">
-              I specialize in bridging design and development — ensuring every pixel has a
-              purpose and every line of code serves the user experience. I&apos;m a fast
-              learner, a dedicated problem-solver, and always chasing the next best practice.
+              Highly motivated to grow through real-world development opportunities 
+              and contribute to team success.
             </p>
 
           {/* Trait cards */}
