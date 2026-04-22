@@ -26,10 +26,11 @@ export default function Hero() {
       transition={{ duration: 1 }}
     >
       {/* ✨ BACKGROUND EFFECTS */}
-      <div className="absolute inset-0 -z-10">
-        <div className="absolute top-20 left-1/2 -translate-x-1/2 w-[550px] h-[550px] bg-brand-light/20 blur-[140px] rounded-full" />
-          <Galaxy />
-      </div>
+     <div className="absolute inset-0 -z-10 overflow-hidden">
+      <div className="absolute top-20 left-1/2 -translate-x-1/2 w-[250px] h-[250px] bg-brand-light/20 blur-[20px] rounded-full opacity-60" />
+      <Galaxy/>
+    </div>
+      
 
       <motion.div  
         className="absolute top-24 right-10 w-36 h-36 bg-brand-light/25 blur-2xl rounded-full"
