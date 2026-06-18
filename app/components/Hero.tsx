@@ -26,11 +26,24 @@ export default function Hero() {
       transition={{ duration: 1 }}
     >
       {/* ✨ BACKGROUND EFFECTS */}
-     <div className="absolute inset-0 -z-10 overflow-hidden">
-      <div className="absolute top-20 left-1/2 -translate-x-1/2 w-[250px] h-[250px] bg-brand-light/20 blur-[20px] rounded-full opacity-60" />
-      <Galaxy/>
-    </div>
-      
+     {/* <div className="absolute inset-0 -z-10 overflow-hidden">
+         <div style={{ width: '100%', height: '800px', position: 'relative' }}>
+      <Galaxy 
+        mouseRepulsion
+        mouseInteraction
+        density={1}
+        glowIntensity={0.3}
+        saturation={0}
+        hueShift={140}
+        twinkleIntensity={0.3}
+        rotationSpeed={0.1}
+        repulsionStrength={2}
+        autoCenterRepulsion={0}
+        starSpeed={0.5}
+        speed={1}
+        />
+        </div>
+    </div> */}
 
       <motion.div  
         className="absolute top-24 right-10 w-36 h-36 bg-brand-light/25 blur-2xl rounded-full"
